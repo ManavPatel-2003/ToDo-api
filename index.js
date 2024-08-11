@@ -28,7 +28,7 @@ app.use(
 
 // test
 app.get("/", (req, res) => {
-    res.json({data: "Hello"});
+    res.json({data: "Hello from ToDo API"});
 })
 
 // account create
